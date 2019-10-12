@@ -6,7 +6,7 @@ pipeline {
         sh 'echo "nginx"'
       }
     }
-    stage('') {
+    stage('test2') {
       steps {
         sh 'echo "mmmmmmmmmm"'
       }
