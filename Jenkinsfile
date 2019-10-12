@@ -10,7 +10,7 @@ pipeline {
     stage('test2') {
       steps {
         sh 'echo "mmmmmmmmmm"'
-        sh 'git clone git@github.com:xinshouXY/-.git'
+        sh 'git clone https://github.com/xinshouXY/job-name.git'
       }
     }
   }
