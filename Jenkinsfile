@@ -3,7 +3,12 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        git(url: 'https://github.com/xinshouXY/-.git', branch: 'master')
+        sh 'echo "nginx"'
+      }
+    }
+    stage('') {
+      steps {
+        sh 'echo "mmmmmmmmmm"'
       }
     }
   }
