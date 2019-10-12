@@ -10,6 +10,7 @@ pipeline {
     stage('test2') {
       steps {
         sh 'echo "mmmmmmmmmm"'
+        git(changelog: true, url: 'https://github.com/xinshouXY/-.git', branch: 'master')
       }
     }
   }
